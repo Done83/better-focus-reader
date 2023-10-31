@@ -31,23 +31,3 @@ resetButton.addEventListener('click', () => {
     inputText.value = ''; // Now you can reset the input field
     outputText.innerHTML = '';
 });
-
-
-
-
-
-
-
-// const inputText = document.getElementById("inputText").value;
-// const words = inputText.split(" ");
-// let modifiedText = "";
-
-// words.forEach((word) => {
-//     let modifiedWord;
-//     if (word.length > 7) {
-//         modifiedWord = `<b>${word.substring(0, 3)}</b>${word.substring(3)}`;
-//     } else {
-//         modifiedWord = `<b>${word.substring(0, 2)}</b>${word.substring(2)}`;
-//     }
-//     modifiedText += modifiedWord + " ";
-// });
